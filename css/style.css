@@ -1,5 +1,9 @@
 /*Forside*/
 
+main {
+    margin: 1rem;
+}
+
 /*del 1*/
 .figure_one{
     width: 10rem;
@@ -106,6 +110,9 @@
 /*del 3*/
 
 /**Produktside**/
+.login_text, .favorites_text, .shopping_bag_text{
+    display: none;
+}
 .most_wanted{
     color: #000;
     font-family: Poly;
@@ -260,6 +267,187 @@
     justify-content: space-between;
 }
 
+/*figure ti*/
+
+.figure_ten{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.Comfy{
+    font-size: 1rem;
+}
+
+.price_figure_ten{
+    font-size: 1.5rem;
+}
+
+.icon_figure_ten{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_ten{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure ellve*/
+
+.figure_eleven{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.chic{
+    font-size: 1rem;
+}
+
+.price_figure_eleven{
+    font-size: 1.5rem;
+}
+
+.icon_figure_eleven{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_eleven{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure tolv*/
+
+.figure_twelve{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.dream{
+    font-size: 1rem;
+}
+
+.price_figure_twelve{
+    font-size: 1.5rem;
+}
+
+.icon_figure_twelve{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_twelve{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure tretten*/
+
+.figure_thirteen{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.sky{
+    font-size: 1rem;
+}
+
+.price_figure_thirteen{
+    font-size: 1.5rem;
+}
+
+.icon_figure_thirteen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_thirteen{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure tretten*/
+
+.figure_fourteen{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.barbie{
+    font-size: 1rem;
+}
+
+.price_figure_fourteen{
+    font-size: 1rem;
+}
+
+.icon_figure_fourteen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_fourteen{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
 .number_of_products{
     color: #000;
     font-family: Poly;
@@ -272,6 +460,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 1rem;
 }
 
 .filter{
@@ -319,11 +508,17 @@
     margin-left: 0rem;
 }
 
+.search{
+    display: none;
+}
 
+.filter_text{
+    display: none;
+}
 
-
-
-
+.drop_down_filter{
+    display: none;
+}
 
 
 
@@ -360,13 +555,11 @@ body{
 
 header{
     background-color: bisque;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 2%;
 }
 
 
@@ -452,4 +645,96 @@ header{
     align-items: baseline;
 }
 
+
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+.delivery_return_title {
+    text-align: left;
+}
+
+.information {
+    text-align: left;
+}
+
+.get_help {
+    margin-right: 25rem;
+}
+
+.info_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.helpWrap{
+    margin-left: 5rem;
+}
+
+.hamburgermeny{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login_text, .favorites_text, .shopping_bag_text{
+   display: block;
+}
+
+.filter_logo{
+    display: none;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.line_most_wanted{
+    text-decoration: underline;
+}
+
+.filter_product{
+    float: right;
+    white-space: nowrap;
+}
+.drop_down_filter{
+    display: block;
+    margin-top: 1rem;
+}
+
+.all_figures{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.text_figure_eight, .text_figure_ten, .text_figure_eleven, .text_figure_thirteen, .text_figure_fourteen{
+    margin-left: 3rem;
+}
+
+.icon_figure_six, .icon_figure_seven, .icon_figure_eight, .icon_figure_nine, .icon_figure_ten, .icon_figure_eleven, .icon_figure_twelve, .icon_figure_thirteen, .icon_figure_fourteen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+header{
+    grid-template-columns: 80% 10% 10%;
+}
+
+.main{
+    margin-left: 17rem;
+}
+}
 

@@ -1,0 +1,455 @@
+/*Forside*/
+
+/*del 1*/
+.figure_one{
+    width: 10rem;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.picture_one{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.text{
+    margin: 20%;
+}
+
+.button_one{
+    font-family: Poly;
+    font-size: 12px;
+    font-weight: 400;
+ 
+}
+/*del 1*/
+
+/*del 2*/
+.sale{
+    color: #000;
+    text-align: center;
+    font-family: Poly;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0%;
+}
+
+.brown_heels{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+
+.lets_shop{
+    text-align: center;
+    font-family: Playfair Display SC;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.new_arrivals{
+    text-align: center;
+    font-family: Poly;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button_two{
+    height: 20%;
+    font-family: Poly;
+    font-size: 12px;
+    font-weight: 400;
+  
+}
+/*del 2*/
+
+
+/*del 3*/
+.figure_four{
+    width: 10rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex: 1
+}
+
+.glamerous_fall{
+    margin-left: 2rem;
+}
+
+
+.figure_five{
+    width: 10rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex: 1
+}
+
+.button_three{
+    display: flex;
+    height: 12%;
+    font-family: Poly;
+    font-size: 12px;
+    margin: 2rem;
+}
+  
+.text_three{
+    display: flex;
+    flex-direction: row;
+}
+
+.textandbutton{
+    margin-top: 11rem;
+}
+/*del 3*/
+
+/**Produktside**/
+.most_wanted{
+    color: #000;
+    font-family: Poly;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.breadcrumbs{
+    display: flex;
+}
+
+
+/*figure seks*/
+.figure_six{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.bling{
+    font-size: 1rem;
+}
+
+.price_figure_six{
+    font-size: 1rem;
+}
+
+.icon_figure_six{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_six{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure seven*/
+
+.figure_seven{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.date_night{
+    font-size: 1rem;
+}
+
+.price_figure_seven{
+    font-size: 1.5rem;
+}
+
+.icon_figure_seven{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+.text_figure_seven{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*figure åtte*/
+
+.figure_eight{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.office{
+    font-size: 1rem;
+}
+
+.price_figure_eight{
+    font-size: 1.5rem;
+}
+
+.icon_figure_eight{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+
+.text_figure_eight{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/*figure ni*/
+.figure_nine{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.running_late{
+    font-size: 1rem;
+}
+
+.price_figure_nine{
+    font-size: 1rem;
+}
+
+.icon_figure_nine{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10rem;
+}
+
+.text_figure_nine{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.number_of_products{
+    color: #000;
+    font-family: Poly;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.filter_product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter{
+    color: #000;
+    font-family: Poly;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 2%;
+}
+
+.filter_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.products{
+    color: #000;
+    font-family: Poly;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem;
+}
+
+.button_four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.button_showmore{
+    font-family: Poly;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icon_one{
+    display: block;
+    margin-left: 5rem;
+}
+
+.icon_two{
+    display: block;
+    margin-left: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Retur & leverandre*/
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+
+.main{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    font-style: normal;
+
+}
+
+.delivery_return_title {
+   color: black;
+   font-size: 25px;
+   font-family: poly;
+   font-weight: 400;
+   text-align: center;
+   line-height: normal;
+   font-style: normal;
+}
+
+.information{
+    width: 390px;
+    color: black;
+    font-size: 15px;
+    font-family: poly;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    font-style: normal;
+    margin-right: 100%;
+
+}
+
+.delivery_return{
+    color: black;
+    font-size: 20px;
+    font-family: poly;
+    font-weight: 400;
+    text-align: normal;
+    line-height: normal;
+    font-style: normal;
+}
+
+.get_help{
+    color: black;
+    font-size: 15px;
+    font-family: poly;
+    font-weight: 400;
+    text-align: normal;
+    line-height: normal;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 5rem;
+    background-color: #D9D9D9;
+}
+
+.footer{
+    background-color: bisque;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.info{
+    color: #000;
+    text-align: center;
+    font-family: Poly;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10%;
+}
+
+.helpWrap{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+}
+
+

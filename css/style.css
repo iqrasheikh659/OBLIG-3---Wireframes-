@@ -1,14 +1,27 @@
-/*Forside*/
-
-main {
-    margin: 1rem;
+/*Header & footer - gjelder for alle sidene*/
+header{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/*del 1*/
+.footer{
+    background-color: bisque;
+    width: 100%;
+    margin-top: 2rem;
+}
+.info_link{
+    margin-left: 7rem;
+}
+
+/*Forside*/
+/*Del 1: figur 1 & tekst*/
 .figure_one{
     width: 10rem;
     margin: 1.5rem;
-    padding: 1rem;
 }
 
 .picture_one{
@@ -19,33 +32,6 @@ main {
 .text{
     margin: 20%;
 }
-
-.button_one{
-    font-family: Poly;
-    font-size: 12px;
-    font-weight: 400;
- 
-}
-/*del 1*/
-
-/*del 2*/
-.sale{
-    color: #000;
-    text-align: center;
-    font-family: Poly;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0%;
-}
-
-.brown_heels{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-}
-
 
 .lets_shop{
     text-align: center;
@@ -61,34 +47,41 @@ main {
     font-weight: 400;
 }
 
+.button_one{
+    font-family: Poly;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*Del 2: figur to-tre & tekst*/
+.sale{
+    text-align: center;
+    font-family: Poly;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.brown_heels{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
 .button_two{
     height: 20%;
     font-family: Poly;
     font-size: 12px;
-    font-weight: 400;
-  
+    font-weight: 400; 
 }
-/*del 2*/
 
-
-/*del 3*/
-.figure_four{
-    width: 10rem;
-    margin: 1.5rem;
-    padding: 1rem;
-    flex: 1
+/*Del 3: figur fire-fem & tekst */
+.textandbutton{
+    margin-top: 11rem;
 }
 
 .glamerous_fall{
     margin-left: 2rem;
-}
-
-
-.figure_five{
-    width: 10rem;
-    margin: 1.5rem;
-    padding: 1rem;
-    flex: 1
 }
 
 .button_three{
@@ -98,16 +91,28 @@ main {
     font-size: 12px;
     margin: 2rem;
 }
-  
+
+.figure_four{
+    width: 10rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex: 1
+}
+
+.figure_five{
+    width: 10rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    flex: 1
+}
 .text_three{
     display: flex;
     flex-direction: row;
 }
 
-.textandbutton{
-    margin-top: 11rem;
+main {
+    margin: 1rem;
 }
-/*del 3*/
 
 /**Produktside**/
 .login_text, .favorites_text, .shopping_bag_text{
@@ -125,14 +130,19 @@ main {
     display: flex;
 }
 
-
 /*figure seks*/
 .figure_six{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_six{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .bling{
@@ -153,22 +163,19 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_six{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure seven*/
-
 .figure_seven{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_seven{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .date_night{
@@ -189,21 +196,19 @@ main {
     margin-right: 10rem;
 }
 
-.text_figure_seven{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure åtte*/
-
 .figure_eight{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_eight{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .office{
@@ -224,22 +229,19 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_eight{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-
 /*figure ni*/
 .figure_nine{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_nine{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .running_late{
@@ -260,21 +262,19 @@ main {
     margin-right: 10rem;
 }
 
-.text_figure_nine{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure ti*/
-
 .figure_ten{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_ten{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .Comfy{
@@ -295,22 +295,19 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_ten{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure ellve*/
-
 .figure_eleven{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_eleven{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .chic{
@@ -331,23 +328,21 @@ main {
     margin-right: 10rem;
 }
 
+/*figure tolv*/
+.figure_twelve{
+    width: 13rem;
+    margin-left: 1rem;
+    padding: 20px;
+    margin: 20px;
+}
 
-.text_figure_eleven{
+.text_figure_twelve{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-/*figure tolv*/
-
-.figure_twelve{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-
-}
 
 .dream{
     font-size: 1rem;
@@ -367,22 +362,19 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_twelve{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure tretten*/
-
 .figure_thirteen{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_thirteen{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .sky{
@@ -403,22 +395,19 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_thirteen{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 /*figure tretten*/
-
 .figure_fourteen{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
+}
 
+.text_figure_fourteen{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .barbie{
@@ -439,23 +428,7 @@ main {
     margin-right: 10rem;
 }
 
-
-.text_figure_fourteen{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-
-.number_of_products{
-    color: #000;
-    font-family: Poly;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 2%;
-}
-
+/*Filter*/
 .filter_product{
     display: flex;
     flex-direction: row;
@@ -476,6 +449,8 @@ main {
     flex-direction: row;
     align-items: center
 }
+
+/*Antall produkter & knapp nederst på produktsiden*/
 .products{
     color: #000;
     font-family: Poly;
@@ -498,6 +473,7 @@ main {
     text-align: center;
 }
 
+/*Endringer gjort for at produktsiden skal se optimal ut på desktop*/
 .icon_one{
     display: block;
     margin-left: 5rem;
@@ -520,121 +496,55 @@ main {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Retur & leverandre*/
+/*Retur & leveranse*/
 body{
     margin: 0px;
 }
 
-header{
-    background-color: bisque;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
 .main{
-    color: black;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     text-align: center;
-    line-height: normal;
-    font-style: normal;
-
 }
 
+/*Tittel og informasjon øverst på siden*/
 .delivery_return_title {
-   color: black;
    font-size: 25px;
    font-family: poly;
    font-weight: 400;
    text-align: center;
-   line-height: normal;
-   font-style: normal;
 }
 
+/*Hovedinformasjon på siden*/
 .information{
     width: 390px;
-    color: black;
     font-size: 15px;
     font-family: poly;
-    font-weight: 400;
     text-align: center;
-    line-height: normal;
-    font-style: normal;
-    margin-right: 100%;
-
 }
 
 .delivery_return{
-    color: black;
     font-size: 20px;
     font-family: poly;
     font-weight: 400;
-    text-align: normal;
-    line-height: normal;
-    font-style: normal;
 }
 
 .get_help{
-    color: black;
     font-size: 15px;
     font-family: poly;
-    font-weight: 400;
-    text-align: normal;
-    line-height: normal;
-    font-style: normal;
     margin-top: 1rem;
     margin-left: 0.5rem;
     margin-right: 5rem;
     background-color: #D9D9D9;
 }
 
-.footer{
-    background-color: bisque;
-    width: 100%;
-    margin-top: 2rem;
-}
-
+/*Footer på siden*/
 .info{
-    color: #000;
     text-align: center;
     font-family: Poly;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-right: 10%;
 }
 
@@ -646,24 +556,22 @@ header{
 }
 
 
+
+
 /*Desktop*/
 @media only screen and (min-width: 1200px) {
-.delivery_return_title {
-    text-align: left;
-}
 
-.information {
-    text-align: left;
-}
 
-.get_help {
-    margin-right: 25rem;
-}
+/*gjelder for alle sidene*/
 
 .info_footer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.info_link{
+    margin-top: 1rem;
 }
 
 .helpWrap{
@@ -689,6 +597,69 @@ header{
     display: none;
 }
 
+/*Forside*/
+/*Del 1: figur en & tekst */
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure_one{
+    width: 32rem;
+}
+
+.lets_shop{
+    font-size: 2rem;
+}
+
+.new_arrivals{
+    font-size: 2rem;
+}
+
+.button_one{
+    font-size: 1.5rem;
+}
+
+/*Del 2: figur to-tre & tekst*/
+.figure_two{
+    margin-left: 2rem;
+}
+
+.figure_three{
+    width: 83%;
+}
+.button_two{
+    height: 6%;
+    font-size: 24px;
+    margin-left: 0rem;
+}
+
+.sale{
+    font-size: 30px;
+}
+
+/*Del 3: figur fire-fem & tekst*/
+.glamerous_fall{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.button_three{
+    font-size: 26px;
+    margin: 1rem;
+    height: 7%; 
+}
+
+.figure_four, .figure_five{
+    width: 31rem;
+}
+
+.textandbutton{
+    margin-top: 30rem;
+}
+
+/*Produktside*/
 .search{
     display: flex;
     flex-direction: row;
@@ -729,12 +700,32 @@ header{
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
 header{
     grid-template-columns: 80% 10% 10%;
 }
 
+/*Hva er dette for*/
 .main{
     margin-left: 17rem;
 }
+/*Hva er dette for*/
+
+
+
+/*Retur og leveranse*/
+.delivery_return_title {
+    text-align: left;
 }
+
+.information {
+    text-align: left;
+}
+
+.get_help {
+    margin-right: 25rem;
+}
+
+}
+
 

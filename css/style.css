@@ -132,30 +132,30 @@ main {
     display: flex;
 }
 
-/*figure seks*/
-.figure_six{
+/*Produktene*/
+.photo_product{
     width: 13rem;
     margin-left: 1rem;
     padding: 20px;
     margin: 20px;
 }
 
-.text_figure_six{
+.info_icon_product{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 
-.bling{
+.info_name{
     font-size: 1rem;
 }
 
-.price_figure_six{
+.info_price{
     font-size: 1rem;
 }
 
-.icon_figure_six{
+.icon_wrapper{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -165,270 +165,6 @@ main {
     margin-right: 10rem;
 }
 
-/*figure seven*/
-.figure_seven{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_seven{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.date_night{
-    font-size: 1rem;
-}
-
-.price_figure_seven{
-    font-size: 1.5rem;
-}
-
-.icon_figure_seven{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure åtte*/
-.figure_eight{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_eight{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.office{
-    font-size: 1rem;
-}
-
-.price_figure_eight{
-    font-size: 1.5rem;
-}
-
-.icon_figure_eight{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure ni*/
-.figure_nine{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_nine{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.running_late{
-    font-size: 1rem;
-}
-
-.price_figure_nine{
-    font-size: 1rem;
-}
-
-.icon_figure_nine{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure ti*/
-.figure_ten{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_ten{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.Comfy{
-    font-size: 1rem;
-}
-
-.price_figure_ten{
-    font-size: 1.5rem;
-}
-
-.icon_figure_ten{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure ellve*/
-.figure_eleven{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_eleven{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.chic{
-    font-size: 1rem;
-}
-
-.price_figure_eleven{
-    font-size: 1.5rem;
-}
-
-.icon_figure_eleven{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure tolv*/
-.figure_twelve{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_twelve{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-
-.dream{
-    font-size: 1rem;
-}
-
-.price_figure_twelve{
-    font-size: 1.5rem;
-}
-
-.icon_figure_twelve{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure tretten*/
-.figure_thirteen{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_thirteen{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.sky{
-    font-size: 1rem;
-}
-
-.price_figure_thirteen{
-    font-size: 1.5rem;
-}
-
-.icon_figure_thirteen{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
-
-/*figure tretten*/
-.figure_fourteen{
-    width: 13rem;
-    margin-left: 1rem;
-    padding: 20px;
-    margin: 20px;
-}
-
-.text_figure_fourteen{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.barbie{
-    font-size: 1rem;
-}
-
-.price_figure_fourteen{
-    font-size: 1rem;
-}
-
-.icon_figure_fourteen{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 0.5rem;
-    font-size: 1rem;
-    margin-right: 10rem;
-}
 
 /*Filter*/
 .filter_product{
@@ -475,16 +211,6 @@ main {
     text-align: center;
 }
 
-/*Endringer gjort for at produktsiden skal se optimal ut på desktop*/
-.icon_one{
-    display: block;
-    margin-left: 5rem;
-}
-
-.icon_two{
-    display: block;
-    margin-left: 0rem;
-}
 
 .search{
     display: none;
@@ -554,6 +280,7 @@ body{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: baseline;
+    gap: 1rem;
 }
 
 
@@ -610,11 +337,7 @@ body{
     width: 32rem;
 }
 
-.lets_shop{
-    font-size: 2rem;
-}
-
-.new_arrivals{
+.lets_shop, .new_arrivals{
     font-size: 2rem;
 }
 
@@ -689,17 +412,6 @@ body{
 .all_figures{
     display: grid;
     grid-template-columns: auto auto auto;
-}
-
-.text_figure_eight, .text_figure_ten, .text_figure_eleven, .text_figure_thirteen, .text_figure_fourteen{
-    margin-left: 3rem;
-}
-
-.icon_figure_six, .icon_figure_seven, .icon_figure_eight, .icon_figure_nine, .icon_figure_ten, .icon_figure_eleven, .icon_figure_twelve, .icon_figure_thirteen, .icon_figure_fourteen{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-end;
 }
 
 header{

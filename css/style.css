@@ -12,6 +12,8 @@ header{
     background-color: bisque;
     width: 100%;
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .info_link{
     margin-left: 7rem;
@@ -518,7 +520,6 @@ body{
 
 /*Hovedinformasjon på siden*/
 .information{
-    width: 390px;
     font-size: 15px;
     font-family: poly;
     text-align: center;

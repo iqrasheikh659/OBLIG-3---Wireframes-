@@ -375,6 +375,12 @@ body{
     height: 7%; 
 }
 
+.figures_fivefour {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .figure_four, .figure_five{
     width: 31rem;
 }
@@ -418,13 +424,9 @@ header{
     grid-template-columns: 80% 10% 10%;
 }
 
-/*Hva er dette for*/
 .main{
     margin-left: 17rem;
 }
-/*Hva er dette for*/
-
-
 
 /*Retur og leveranse*/
 .delivery_return_title {
@@ -438,6 +440,7 @@ header{
 .get_help {
     margin-right: 25rem;
 }
+
 
 }
 
